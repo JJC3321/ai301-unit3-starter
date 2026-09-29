@@ -7,7 +7,9 @@ the bundle is the whole world and this file is ignored. The rubric
 which issues a package may belong to at all, and what the house rules
 are where that issue lives.
 
-Staff wrote this file. It ships filled; you do not edit it this week.
+Staff wrote this file. One line is yours: the `Repo:` line below,
+which you fill in with your Path Review repo. Leave the rest as it
+ships.
 -->
 
 ## Where your issue lives
@@ -17,10 +19,11 @@ week:
 
 - Repo: `<ORG>/<PATH-REVIEW-REPO>` <!-- paste your section's repo from the Unit 1 Check-In page -->
 
-If the repo line above still reads as a bracketed placeholder, your
-cohort's copy has not been finalized: stop and ask your instructor for
-the Path Review repo link before running live mode. Eval runs never
-read this file, so the harness and the eval bar work either way.
+The repo line above ships as a bracketed placeholder; replacing it is
+step 1 of this unit's assignment. If you do not know your section's
+Path Review repo, it is on the Unit 1 Check-In page, or ask your
+instructor before running live mode. Eval runs never read this file,
+so the harness and the eval bar work either way.
 
 Your plan must belong to the issue you reproduced in week 2 (or the
 house issue the instructor routed you to). Do not grade plan packages
