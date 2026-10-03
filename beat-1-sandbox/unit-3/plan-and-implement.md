@@ -1,4 +1,4 @@
-# Unit 3 — Plan and build
+# Unit 3 — Plan and implement
 
 Live-mode plan + build for Path Review issue
 [#53](https://github.com/codepath/pathreview-ai301-fa26-s3/issues/53)
@@ -13,7 +13,7 @@ Skill upload path: `tools/plan-check/` (same content as
 
 Working clone: `Documents/Code/pathreview-ai301-fa26-s3`
 Branch: `fix/53-parenthesized-phone`
-Local drafts: `plan.md`, `comment.md` (kept uncommitted)
+Committed plan: `beat-1-sandbox/unit-3/plan.md` (includes `## Deviations`)
 
 ## Run history
 
@@ -143,11 +143,14 @@ ran the reproduction myself and will verify every edit before committing.
 
 `fix/53-parenthesized-phone` on the Path Review clone (commit
 `9fd4d7e` — only `safety/pii_scrubber.py` and
-`tests/unit/test_pii_scrubber.py`; `plan.md` / `comment.md` untracked).
+`tests/unit/test_pii_scrubber.py`).
+
+Branch name convention: type prefix `fix/`, issue number `53`,
+description `parenthesized-phone`.
 
 ## plan.md (Deviations)
 
-Full draft lives at the clone root `plan.md`. Deviations filled after
+Committed at `beat-1-sandbox/unit-3/plan.md`. Deviations filled after
 the build:
 
 1. Leading boundary: `[\s.-]` alone left a stray `(` / `+` under `\b`;
