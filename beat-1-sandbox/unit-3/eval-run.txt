@@ -1,0 +1,55 @@
+# eval run written by run_eval.py at 2026-10-03T07:17:03Z
+# model: sonnet (pinned)
+# graded: C:\Users\Jian Jin Chen\.claude\skills\plan-check
+# packages: 20 scored
+#   rubric.md  sha256:b34f94311cd4fc96
+#   evidence-guide.md  sha256:820a2b91ef4f87f0
+#   procedure.md  sha256:b8a0f7e0916af355
+#   SKILL.md  sha256:9bad3d6644a2d285
+#
+grading 20 package(s) with rubric.md + evidence-guide.md + procedure.md, model sonnet, 5 worker(s)...
+  pkg-05: accept
+  pkg-02: accept
+  pkg-03: accept
+  pkg-04: reject
+  pkg-01: reject
+  pkg-08: accept
+  pkg-09: accept
+  pkg-06: reject
+  pkg-07: reject
+  pkg-10: reject
+  pkg-13: accept
+  pkg-12: reject
+  pkg-11: reject
+  pkg-14: accept
+  pkg-15: reject
+  pkg-17: reject
+  pkg-16: reject
+  pkg-19: reject
+  pkg-18: reject
+  pkg-20: reject
+
+item    category           gold    verdict  agree  note
+pkg-01  wrong-cause        reject  reject   yes    
+pkg-02  clear-accept       accept  accept   yes    
+pkg-03  clear-accept       accept  accept   yes    
+pkg-04  thread-convention  reject  reject   yes    
+pkg-05  clear-accept       accept  accept   yes    
+pkg-06  scope-creep        reject  reject   yes    
+pkg-07  wrong-cause        reject  reject   yes    
+pkg-08  clear-accept       accept  accept   yes    
+pkg-09  clear-accept       accept  accept   yes    
+pkg-10  unbuildable        reject  reject   yes    
+pkg-11  wrong-cause        reject  reject   yes    
+pkg-12  scope-creep        reject  reject   yes    
+pkg-13  clear-accept       accept  accept   yes    
+pkg-14  clear-accept       accept  accept   yes    
+pkg-15  scope-creep        reject  reject   yes    
+pkg-16  wrong-cause        reject  reject   yes    
+pkg-17  unbuildable        reject  reject   yes    
+pkg-18  unbuildable        reject  reject   yes    
+pkg-19  scope-creep        reject  reject   yes    
+pkg-20  thread-convention  reject  reject   yes    
+
+categories: clear-accept 7/7  scope-creep 4/4  thread-convention 2/2  unbuildable 3/3  wrong-cause 4/4
+agreement: 20/20 scored items  (bar: 18/20: PASS)
